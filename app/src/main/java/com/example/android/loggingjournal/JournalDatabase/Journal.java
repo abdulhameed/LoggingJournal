@@ -4,7 +4,7 @@ import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 
-@Entity(tableName = "journal")
+@Entity(tableName = "journals")
 public class Journal {
     @PrimaryKey(autoGenerate = true)
     private int journal_id;
